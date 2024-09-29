@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../config.php';
+require_once __DIR__ . '/config.php';
 
 $path = $_SERVER['PATH_INFO'];
 $str = file_get_contents(CONFIG_DIR . $path);
